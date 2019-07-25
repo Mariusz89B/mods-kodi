@@ -1,5 +1,5 @@
 # Download Beta Repository here:
-https://github.com/Mariusz89B/repository.mods-kodi-beta/raw/master/repository.mods-kodi-beta/repository.mods-kodi-0.1.3.zip
+https://github.com/Mariusz89B/mods-kodi/raw/master/repository.mods-kodi/repository.mods-kodi-0.1.3.zip
 
 
 # Mods Kodi
