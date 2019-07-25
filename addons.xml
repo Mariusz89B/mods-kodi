@@ -1,0 +1,141 @@
+<addons>
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.1.923" provider-name="Twinther, modified by team Mods-Kodi">
+<requires>
+<import addon="xbmc.addon" version="13.0.0"/>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.simplejson"/>
+<import addon="script.module.elementtree"/>
+<import addon="script.module.requests"/>
+<import addon="script.module.dateutil"/>
+<import addon="script.module.pil"/>
+<import addon="script.module.beautifulsoup4"/>
+<import addon="script.extendedinfo"/>
+<import addon="inputstream.adaptive" />
+</requires>
+<extension point="xbmc.python.script" library="addon.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+<summary lang="en_GB">m-TVGuide a electronic tvguide for Kodi.</summary>
+<summary lang="pl_PL">
+m-TVGuide elektroniczny program telewizyjny dla Kodi.
+</summary>
+<description lang="en_GB">
+m-TVGuide EPG for internet TV. For more information visit: http://mods-kodi.pl/
+</description>
+<description lang="pl_PL">
+m-TVGuide EPG dla telewizji internetowej. Więcej informacji na stronie: http://mods-kodi.pl/
+</description>
+<disclaimer lang="en_GB">m-TVGuide is a modified EPG script for Kodi</disclaimer>
+<disclaimer lang="pl_PL">m-TVGuide to zmodyfikowany skrypt EPG dla Kodi</disclaimer>
+<language>de dk en fr hr nl no pl se</language>
+<platform>all</platform>
+<license>Copyright mods-kodi.pl © 2013 - 2019</license>
+<forum>http://mods-kodi.pl/forum/</forum>
+<website>http://mods-kodi.pl/</website>
+<email>site@mods-kodi.pl</email>
+<news>
+v8.2.0 (2019-07-23)
+- Dynamic background and color.
+- A new time progress bar.
+- Introduced a new translation system for Kodi v19 (strings.po).
+- New controls displaying time information.
+- New menu of favorite channels from other plugins (You will not need to assign channel to EPG).
+- Built-in program title Youtube search function.
+- Font addon dependency installation.
+- Selection of your favorite group in main EPG.
+- Support for 4K / UHD channels.
+	
+v8.1.1 (2019-05-05)
+- Fix after creating favorite group, name is shown below in select control.
+- New control id for next program, time remaining and time passed.
+- Added support for EPG CZ (Czech) and US (American).
+- Fix for category list search.
+
+v8.1.0 (2019-04-17)
+- Added ability to create favorite channel list
+- Fix exporting settings on Android
+- Fix exiting m-TVGuide while starting up
+- Ability to select foreign channels by group
+- Improved support for playlists
+- Fix WP Pilot service for outside Polish borders
+- Help section in the context menu
+
+v8.0.3 (2019-03-01)
+- Fix automatic playback after running m-TVGuide
+- Fix with channel numbers controls
+
+v8.0.2 (2019-02-20)
+- Fix for m-TVGuide and Kodi freezing while opening stream
+- Playlists migrated to the new category in settings
+- Fix for loading Franqie service streams
+
+v8.0.1 (2019-02-09)
+- Fix crashing EPG
+- Not loading VOD streams from playlist if VOD option is disabled
+- New condition for closing the plugin
+- Stopped timer in vosd.py
+- Improvements 
+
+v8.0.0  (2018-12-10)
+- Performance stability has been improved
+- Program list focus on selected channel
+- Value error fix
+- Program list search fix
+- Removed wrong displayed language code in program list
+- Delayed channel auto start
+- Added missing focus texture after return from recordings folder
+- Hide OSD and playback in background have been fixed
+- Added two settings for exiting addon
+
+v7.6.0  (2018-12-01)
+- Added channel order by number
+- Added channel selection by number
+- Added new information to the help section
+- Added channel playback autostart
+- Added information about the currently playing program in background
+- New Default skin
+- All skins have been reworked
+- Removed known bugs
+- Added extended information about programs
+- Rebuild of category colors settings, translations added
+- Prepared addon for Kodi v18
+
+[COLOR grey][I]New instalation requires have also been added
+- script.module.requests 
+- script.extendedinfo[/I][/COLOR]
+</news>
+<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>screenshots/screenshot-01.jpg</screenshot>
+<screenshot>screenshots/screenshot-02.jpg</screenshot>
+<screenshot>screenshots/screenshot-03.jpg</screenshot>
+</assets>
+</extension>
+</addon>
+<addon id="repository.mods-kodi" name="mods-kodi Beta Repository" version="0.1.3" provider-name="mods-kodi.pl">
+<extension point="xbmc.addon.repository" name="mods-kodi Repository">
+<info compressed="false">http://repo.mods-kodi.pl/addons.xml</info>
+<checksum>http://repo.mods-kodi.pl/addons.xml.md5</checksum>
+<datadir zip="true">http://repo.mods-kodi.pl/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">Repozytorium mods-kodi.pl</summary>
+<summary lang="pl">Repository mods-kodi.pl</summary>
+<description lang="en">
+For more information visit [COLOR cyan][B]mods-kodi.pl[/B][/COLOR] site.
+</description>
+<description lang="pl">
+Zapraszamy na [COLOR cyan][B]mods-kodi.pl[/B][/COLOR]
+</description>
+<platform>all</platform>
+<language/>
+<website>http://mods-kodi.pl</website>
+<forum>http://mods-kodi.pl/forum</forum>
+<source>http://sd-xbmc.org/svn/mods-xbmc</source>
+<email>site@mods-kodi.pl</email>
+</extension>
+</addon>
+</addons>
