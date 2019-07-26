@@ -1,40 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.1.924" provider-name="Twinther, modified by team Mods-Kodi">
-<requires>
-<import addon="xbmc.addon" version="13.0.0"/>
-<import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.simplejson"/>
-<import addon="script.module.elementtree"/>
-<import addon="script.module.requests"/>
-<import addon="script.module.dateutil"/>
-<import addon="script.module.pil"/>
-<import addon="script.module.beautifulsoup4"/>
-<import addon="script.extendedinfo"/>
-</requires>
-<extension point="xbmc.python.script" library="addon.py">
-<provides>video</provides>
-</extension>
-<extension point="xbmc.service" library="service.py" start="login"/>
-<extension point="xbmc.addon.metadata">
-<summary lang="en_GB">m-TVGuide a electronic tvguide for Kodi.</summary>
-<summary lang="pl_PL">
-m-TVGuide elektroniczny program telewizyjny dla Kodi.
-</summary>
-<description lang="en_GB">
-m-TVGuide EPG for internet TV. For more information visit: http://mods-kodi.pl/
-</description>
-<description lang="pl_PL">
-m-TVGuide EPG dla telewizji internetowej. Więcej informacji na stronie: http://mods-kodi.pl/
-</description>
-<disclaimer lang="en_GB">m-TVGuide is a modified EPG script for Kodi</disclaimer>
-<disclaimer lang="pl_PL">m-TVGuide to zmodyfikowany skrypt EPG dla Kodi</disclaimer>
-<language>de dk en fr hr nl no pl se</language>
-<platform>all</platform>
-<license>Copyright mods-kodi.pl © 2013 - 2019</license>
-<forum>http://mods-kodi.pl/forum/</forum>
-<website>http://mods-kodi.pl/</website>
-<email>site@mods-kodi.pl</email>
-<news>
+	<requires>
+		<import addon="xbmc.addon" version="13.0.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.elementtree" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.dateutil" />
+		<import addon="script.module.pil" />
+        <import addon="script.module.beautifulsoup4" />
+		<import addon="script.extendedinfo" />
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">m-TVGuide a electronic tvguide for Kodi.</summary>
+		<summary lang="pl_PL">m-TVGuide elektroniczny program telewizyjny dla Kodi.</summary>
+		<description lang="en_GB">m-TVGuide EPG for internet TV. For more information visit: http://mods-kodi.pl/</description>
+		<description lang="pl_PL">m-TVGuide EPG dla telewizji internetowej. Więcej informacji na stronie: http://mods-kodi.pl/</description>
+		<disclaimer lang="en_GB">m-TVGuide is a modified EPG script for Kodi</disclaimer>
+		<disclaimer lang="pl_PL">m-TVGuide to zmodyfikowany skrypt EPG dla Kodi</disclaimer>
+		<language>de dk en fr hr nl no pl se</language>
+		<platform>all</platform>
+		<license>Copyright mods-kodi.pl © 2013 - 2018</license>
+		<forum>http://mods-kodi.pl/forum/</forum>
+		<website>http://mods-kodi.pl/</website>
+		<email>site@mods-kodi.pl</email>
+	<news>
 v8.2.0 (2019-07-23)
 - Dynamic background and color.
 - A new time progress bar.
