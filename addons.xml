@@ -9,7 +9,7 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.dateutil" />
 		<import addon="script.module.pil" />
-        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.beautifulsoup4"/>
 		<import addon="script.extendedinfo" />
 		<import addon="script.module.inputstreamhelper"/>
 	</requires>
@@ -26,7 +26,7 @@
 		<disclaimer lang="pl_PL">m-TVGuide to zmodyfikowany skrypt EPG dla Kodi</disclaimer>
 		<language>de dk en fr hr nl no pl se</language>
 		<platform>all</platform>
-		<license>Copyright mods-kodi.pl © 2013 - 2018</license>
+		<license>Copyright mods-kodi.pl © 2013 - 2019</license>
 		<forum>http://mods-kodi.pl/forum/</forum>
 		<website>http://mods-kodi.pl/</website>
 		<email>site@mods-kodi.pl</email>
