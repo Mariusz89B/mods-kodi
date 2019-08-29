@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.1.942" provider-name="Twinther, modified by team Mods-Kodi">
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.1.943" provider-name="Twinther, modified by team Mods-Kodi">
 	<requires>
 		<import addon="xbmc.addon" version="13.0.0"/>
 		<import addon="xbmc.python" version="2.26.0"/>
@@ -9,9 +9,10 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.dateutil" />
 		<import addon="script.module.pil" />
-        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.beautifulsoup4" />
 		<import addon="script.extendedinfo" />
-		<import addon="script.module.inputstreamhelper"/>
+		<import addon="script.module.inputstreamhelper" />
+		<import addon="script.module.parsedom" version="2.5.2"/>
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
 		<provides>video</provides>
