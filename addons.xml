@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.1.953" provider-name="Twinther, modified by team Mods-Kodi">
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.1.954" provider-name="Twinther, modified by team Mods-Kodi">
 	<requires>
 		<import addon="xbmc.addon" version="13.0.0"/>
 		<import addon="xbmc.python" version="2.25.0"/>
