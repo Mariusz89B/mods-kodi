@@ -192,8 +192,8 @@ v9.0.0 (2020-06-21)
 
 <addon id="repository.mods-kodi" name="mods-kodi Repository" version="1.0.1" provider-name="mods-kodi.pl">
 	<extension point="xbmc.addon.repository" name="mods-kodi Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/addons.xml.md5</checksum>
+		<info compressed="false">https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/mods-kodi-addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/mods-kodi-addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/Mariusz89B/mods-kodi/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
