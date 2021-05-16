@@ -1,13 +1,164 @@
-﻿[COLOR yellow][B]wersja 8.2.0[/B] - 2019-07-23[/COLOR]
-- dynamiczne tło i kolor
-- nowy pasek postępu czasu
-- wprowadzono nowy system tłumaczeń dla Kodi v19 (strings.po)
-- nowe kontrolki wyświetlające informacje o czasie
-- nowe menu ulubionych kanałów z innych wtyczek (nie potrzeba przypisywać kanału do EPG)
-- wbudowana funkcja wyszukiwania tytułu programu w Youtube
-- instalacja zależnych czcionek od wtyczki
-- wybór ulubionej grupy w głównym EPG
-- obsługa kanałów 4K / UHD
+﻿[COLOR yellow][B]wersja 9.3.1[/B] - 2021-05-12[/COLOR]
+- dodana opcja wprowadzenia kanałów bez epg 
+- poprawka błędu parsowania
+- dodana opcja nagrywaj i oglądaj
+- dodano ustawienie aby kontynuować odtwarzanie, nagrywanie i
+pobieranie usług w tle po zakonczeniu wtyczki
+
+[COLOR yellow][B]wersja 9.3.0[/B] - 2021-04-13[/COLOR]
+- poprawka nagrywania z serwisu WP Pilot
+- dodana funkcja timeshift do serwisu Telia Play
+- poprawka błędu szyfrowania
+- naprawiono przycisk resetowania w menu pobierania
+- dodano wskaźnik prędkości pobierania
+- usunięte błędy
+
+[COLOR yellow][B]wersja 9.2.9[/B] - 2021-04-05[/COLOR]
+- poprawiono wydajność działania
+- poprawka zanikajacych ikon
+- dodane nowe menu pobierania
+- dodana opcja cachowania playlisty
+- usunięte błędy
+
+[COLOR yellow][B]wersja 9.2.8[/B] - 2021-02-27[/COLOR]
+- poprawka serwisu Telia Play
+- poprawiony kod statusu odpowiedzi
+
+[COLOR yellow][B]wersja 9.2.7[/B] - 2021-02-26[/COLOR]
+- poprawka serwisu Cyfrowy Polsat GO
+- poprawka serwisu Nc+ GO
+
+[COLOR yellow][B]wersja 9.2.6[/B] - 2021-02-24[/COLOR]
+- poprawka format ciągu timeshift
+- dodano Cloudflare bypasser
+
+[COLOR yellow][B]wersja 9.2.5[/B] - 2021-02-22[/COLOR]
+- optymalizacje
+- poprawione tłumaczenia
+
+[COLOR yellow][B]wersja 9.2.4[/B] - 2021-02-02[/COLOR]
+- dodano możliwość planowania wielu pobrań
+- naprawiono ustawienie przesunięcia czasu pobierania
+- poprawka dotycząca pobierania części programu
+- przerobione ustawienia epg, basemap przy dodawaniu kanałów z innych kraji
+- dodano automatyczne dodawanie country code do strumieni m3u
+- poprawka dla User-Agent
+- dodano okno powiadomienia z informacją powodu niedziałających strumieni
+- naprawiono tłumaczenie Pythona 3, które powodowało uszkodzenie bazy
+
+[COLOR yellow][B]wersja 9.2.3[/B] - 2021-01-25[/COLOR]
+- poprawka checkLogin w serwisie Telia Play
+
+[COLOR yellow][B]wersja 9.2.2[/B] - 2021-01-21[/COLOR]
+- dodany nowy serwis PlayerPL
+- dodano ustawienie wyboru User-Agent dla playlist
+- poprawka serwisu Ipla
+- poprawka timestamp z odświeżania tokena dla usługi Telia Play
+- naprawiono migające tło paska czasu
+- inne ulepszenia
+
+[COLOR yellow][B]wersja 9.2.1[/B] - 2021-01-14[/COLOR]
+- poprawka serwisu WP Pilot
+- dodano możliwość ręcznego wprowadzania ciasteczek dla usługi WP Pilot
+- loadExtraBaseMap niekonieczne by odpalic wtyczke
+
+[COLOR yellow][B]wersja 9.2.0[/B] - 2020-12-31[/COLOR]
+- poprawka serwisu Ipla, dodane brakujące kanały
+- poprawka szyfrowania utf-8
+
+[COLOR yellow][B]wersja 9.1.9[/B] - 2020-10-31[/COLOR]
+- poprawka timestamp z odświeżania tokena dla usługi Telia Play
+
+[COLOR yellow][B]wersja 9.1.8[/B] - 2020-10-26[/COLOR]
+- poprawka serwisu Cyfrowy Polsat GO
+- poprawka serwisu Telia Play
+- dodano timestamp z odświeżania tokena dla usługi Telia Play
+- zmiany w API Pythona, dodano xbmc.LOGINFO
+
+[COLOR yellow][B]wersja 9.1.7[/B] - 2020-08-30[/COLOR]
+- poprawka pobierania programów na systemach Android
+
+[COLOR yellow][B]wersja 9.1.6[/B] - 2020-08-08[/COLOR]
+- poprawka wyświetlanie czasu podczas odtwarzania
+- poprawki
+
+[COLOR yellow][B]wersja 9.1.5[/B] - 2020-08-04[/COLOR]
+- poprawki
+
+[COLOR yellow][B]wersja 9.1.4[/B] - 2020-07-29[/COLOR]
+- przebudowana funkcja timeshift
+- dodano powiadomienie o postępie i rozmiarze plików do pobrania
+- poprawka serwisu C More
+- poprawki
+
+[COLOR yellow][B]wersja 9.1.3[/B] - 2020-07-09[/COLOR]
+- poprawki
+
+[COLOR yellow][B]wersja 9.1.2[/B] - 2020-07-07[/COLOR]
+- dodano opcję wyłączenia instalacji czcionek
+- zmiany w parsowaniu obrazów programu
+
+[COLOR yellow][B]wersja 9.1.1[/B] - 2020-07-05[/COLOR]
+- poprawki
+
+[COLOR yellow][B]wersja 9.1.0[/B] - 2020-07-04[/COLOR]
+- dodany przycisk wstrzymaj / wznów w wideo OSD
+- dodany refresh token do serwisu Telia Play
+- poprawka błędów w kodzie
+- dodany backup domyślnych czcionek skórki Kodi
+
+[COLOR yellow][B]wersja 9.0.10[/B] - 2020-07-02[/COLOR]
+- poprawka instalacji czcionek
+
+[COLOR yellow][B]wersja 9.0.9[/B] - 2020-07-01[/COLOR]
+- poprawka instalacji czcionek
+- poprawka szyfrowania przypomnien
+- dodane prawidłowe szyfrowanie epg formatu .gz
+- dodana licencja skórek
+
+[COLOR yellow][B]wersja 9.0.8[/B] - 2020-06-29[/COLOR]
+- poprawka dodawania kanałów
+
+[COLOR yellow][B]wersja 9.0.7[/B] - 2020-06-28[/COLOR]
+- małe poprawki
+
+[COLOR yellow][B]wersja 9.0.6[/B] - 2020-06-28[/COLOR]
+- poprawka serwisu Cyfrowy Polsat GO
+
+[COLOR yellow][B]wersja 9.0.5[/B] - 2020-06-28[/COLOR]
+- małe poprawki
+
+[COLOR yellow][B]wersja 9.0.4[/B] - 2020-06-27[/COLOR]
+- poprawka logowania w serwisie WP Pilot
+- poprawka timeshift
+
+[COLOR yellow][B]wersja 9.0.3[/B] - 2020-06-26[/COLOR]
+- przerobione logowanie w serwisie WP Pilot
+- dodany certyfikat dla serwisu Telia Play
+
+[COLOR yellow][B]wersja 9.0.2[/B] - 2020-06-25[/COLOR]
+- poprawka dodawania kanałów
+- poprawka szyfrowania lokalizacji
+
+[COLOR yellow][B]wersja 9.0.0[/B] - 2020-06-21[/COLOR]
+- obsługa archiwum
+- opcja pobierania programów zakonczońych
+- instalacja pakietu czcionek
+- dodaj strumień do kanału dostępnego w EPG
+
+[COLOR yellow][B]wersja 8.2.0[/B] - 2020-04-11[/COLOR]
+- migracja do Python 3 (Kodi Matrix)
+- wprowadzony nowy system tlumaczen dla (Kodi Matrix)
+- nowe serwisy TV
+- dodany przewodnik konfiguracji
+- dynamiczne tlo i kolory
+- nowy pasek postepu czasu
+- nowa skorka Estuary mod v2
+- nowe kontrolki wyswietlajace informacje czasowe
+- nowe menu ulubionych kanalow z innych wtyczek
+- wbudowana funkcja wyszukiwania tytulu programu w Youtube
+- wybor ulubionej grupy w glownym EPG
+- wsparcie dla kanalow 4K/UHD
 
 [COLOR yellow][B]wersja 8.1.1[/B] - 2019-05-05[/COLOR]
 - fix po utworzeniu ulubionej grupy, nazwa jest pokazana poniżej w kontrolce wyboru
