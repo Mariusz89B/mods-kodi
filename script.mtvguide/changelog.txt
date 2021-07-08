@@ -1,4 +1,8 @@
-﻿wersja 9.4.1 - 2021-07-06
+﻿wersja 9.4.2 - 2021-07-08
+- zaktualizowane menu kontekstowe i menu boczne
+- zaktualizowana opcja wybierania skórek
+
+wersja 9.4.1 - 2021-07-06
 - zaktualizowano rozpoznawanie kanałów z archiwum
 
 wersja 9.4.0 - 2021-06-27
