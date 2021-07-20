@@ -1,4 +1,8 @@
-﻿wersja 9.4.2 - 2021-07-08
+﻿wersja 9.4.3 - 2021-07-20
+- zaktualizowana opcja wybierania klawiszy
+- usunięte błędy
+
+wersja 9.4.2 - 2021-07-08
 - zaktualizowane menu kontekstowe i menu boczne
 - zaktualizowana opcja wybierania skórek
 
