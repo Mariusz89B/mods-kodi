@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="9.4.7" provider-name="Team Mods-Kodi">
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="9.4.8" provider-name="Team Mods-Kodi">
 	<requires>
 		<import addon="xbmc.addon" version="17.0.0"/>
 		<import addon="script.module.inputstreamhelper" />
@@ -27,11 +27,15 @@
 		<disclaimer lang="pl_PL">Zapraszamy do korzystania z dodatku. Więcej informacji na stronie http://mods-kodi.pl/</disclaimer>
 		<language>de dk en fr hr nl no pl se</language>
 		<platform>all</platform>
-		<license>Copyright mods-kodi.pl © 2013 - 2020</license>
+		<license>Copyright mods-kodi.pl © 2013 - 2021</license>
 		<forum>http://mods-kodi.pl/forum/</forum>
 		<website>http://mods-kodi.pl/</website>
 		<email>support@m-tvguide.pl</email>
-	<news>v9.4.7 (2021-08-16)
+	<news>v9.4.8 (2021-08-22)
+- Fixed VideoOSD.
+- Bug fixes.
+
+v9.4.7 (2021-08-16)
 - Fixed timebar flickering.
 - Fixed login for service WP Pilot.
 
