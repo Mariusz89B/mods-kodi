@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="9.4.8" provider-name="Team Mods-Kodi">
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="9.4.9" provider-name="Team Mods-Kodi">
 	<requires>
 		<import addon="xbmc.addon" version="17.0.0"/>
 		<import addon="script.module.inputstreamhelper" />
@@ -31,7 +31,11 @@
 		<forum>http://mods-kodi.pl/forum/</forum>
 		<website>http://mods-kodi.pl/</website>
 		<email>support@m-tvguide.pl</email>
-	<news>v9.4.8 (2021-08-22)
+	<news>v9.4.9 (2021-09-01)
+- Added service Polsat GO.
+- Performance improvements.
+
+v9.4.8 (2021-08-22)
 - Fixed VideoOSD.
 - Bug fixes.
 
