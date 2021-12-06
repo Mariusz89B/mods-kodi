@@ -1,4 +1,8 @@
-﻿wersja 9.8.2 - 2021-11-17
+﻿wersja 9.8.3 - 2021-12-06
+- poprawka archiwum dla serwisu Telia Play
+- poprawione błędy
+
+wersja 9.8.2 - 2021-11-28
 - dodano wbudowaną przeglądarkę dodatków
 - poprawione błędy
 
