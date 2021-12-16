@@ -4,6 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Kodi](https://img.shields.io/badge/platform-Kodi-lightgrey.svg)](https://kodi.tv/)
 
+# Support us!
+We are doing everything in our effort to create the best TVGuide experience, contribute to our development and support further work. 
+
+All donations are appreciated.<br>
+https://www.paypal.me/mariusz89b
+
 ## Repository
 
 Our repository with official releases available for download on following link:
