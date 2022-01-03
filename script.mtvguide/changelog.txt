@@ -1,4 +1,10 @@
-﻿wersja 9.8.5 - 2021-12-12
+﻿wersja 9.8.6 - 2022-01-04
+- naprawiono odświeżanie tabeli EPG po zakończeniu nagrywania
+- naprawiono grupy dostępu Polsat GO
+- dodano obsługę DRM dla serwisu WP Pilot
+- poprawione błędy
+
+wersja 9.8.5 - 2021-12-12
 - dodane wsparcie dla plików .xz
 - poprawione błędy
 
