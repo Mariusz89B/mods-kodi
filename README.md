@@ -38,4 +38,4 @@ m-TVGuide grew among the public being one of the most popular television guides 
 
 ![](https://i.imgur.com/ipTGRvj.jpg)
 
-Copyright m-TVGuide © 2013 - 2021
+Copyright m-TVGuide © 2013 - 2022
