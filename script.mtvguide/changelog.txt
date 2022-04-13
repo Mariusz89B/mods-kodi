@@ -1,4 +1,13 @@
-﻿v9.9.4 (2022-03-02)
+﻿v9.9.5 (2022-04-13)
+- Added catchup for service TVPGO.
+- Fixed service PlayerPL parsing error.
+- Fixed encodings.
+- Optimized performance.
+- Added playlist caching.
+- Fixed local timezone.
+- Bug fixes.
+
+v9.9.4 (2022-03-02)
 - Fixed error while using record services.
 - Fixed encoding issues Python 2.7.
 
