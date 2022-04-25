@@ -18,7 +18,7 @@ Download repository in the URL link above.
 
 1. Copy the downloaded file to an USB drive and connect it to your Kodi device
 2. Goto your Addons screen in Kodi
-3. Select "Install from Zip" and select the repository.mods-kodi-1.0.1.zip file you downloaded
+3. Select "Install from Zip" and select the repository.mods-kodi-1.0.2.zip file you downloaded
 4. The repository is now installed and you can install m-TVGuide addon available in Video add-ons category.
 
 Launch m-TVGuide and use the built-in configurator to setup your guide.
