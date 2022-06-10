@@ -721,6 +721,9 @@ v0.0.1 (2022-06-01)
 	  <forum>https://github.com/Mariusz89B/script.mtvguide/discussions</forum>
 	  <website>https://github.com/Mariusz89B/script.mtvguide</website>
 	  <source>m-TVGuide © 2013 - 2022</source>
+	  <assets>
+	    <icon>icon.png</icon>
+	  </assets>
     </dir>
   </extension>
 </addon>
