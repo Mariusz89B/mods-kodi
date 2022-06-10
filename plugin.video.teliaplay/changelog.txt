@@ -1,0 +1,27 @@
+v0.5 (2022-06-10)
+- Hotfix.
+
+v0.4 (2022-06-09)
+- Code refactoring.
+
+v0.3 (2022-06-08)
+- Hotfix.
+
+v0.2 (2022-06-06)
+- Fixed missing programs.
+
+v0.1 (2022-06-06)
+- Fixed token refresh.
+- Code refactoring.
+
+v0.0.4 (2022-06-04)
+- Fixes.
+
+v0.0.3 (2022-06-04)
+- Fixed login, updated URL.
+
+v0.0.2 (2022-06-02)
+- Login fixes.
+
+v0.0.1 (2022-06-01)
+- Initial version.
