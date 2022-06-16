@@ -3,7 +3,7 @@
 <addon
     id="script.mtvguide"
     name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]"
-    version="9.9.613"
+    version="9.9.614"
     provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.addon" version="17.0.0"/>
@@ -22,7 +22,7 @@
   <extension point="xbmc.python.script" library="addon.py">
     <provides>video</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.service" library="service.py" start="serverHTTP.py"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">m-TVGuide EPG</summary>
 	<description lang="da_DK">Elektronisk programguide til Kodi.</description>
@@ -42,7 +42,12 @@
     <forum>https://github.com/Mariusz89B/script.mtvguide/discussions</forum>
 	<website>https://github.com/Mariusz89B/script.mtvguide</website>
     <source>m-TVGuide © 2013 - 2022</source>
-    <news>v9.9.613 (2022-06-11)
+    <news>v9.9.614 (2022-06-16)
+- Fixed service PlayerPL login.
+- Added option to manually assign adult and vod EPG URL.
+- Other fixes.
+
+v9.9.613 (2022-06-11)
 - Fixed playlists load error.
 
 v9.9.612 (2022-06-10)
