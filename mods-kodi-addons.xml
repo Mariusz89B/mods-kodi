@@ -3,7 +3,7 @@
 <addon
     id="script.mtvguide"
     name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]"
-    version="9.9.619"
+    version="9.9.620"
     provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.addon" version="17.0.0"/>
@@ -42,7 +42,12 @@
     <forum>https://github.com/Mariusz89B/script.mtvguide/discussions</forum>
 	<website>https://github.com/Mariusz89B/script.mtvguide</website>
     <source>m-TVGuide © 2013 - 2022</source>
-    <news>v9.9.619 (2022-07-07)
+    <news>v9.9.620 (2022-07-08)
+- Added filename input for downloads and recordings.
+- Other improvements.
+- Bug fixes.
+
+v9.9.619 (2022-07-07)
 - Added overview guide window shourtcut.
 - Database optimizations.
 
@@ -541,7 +546,7 @@ v9.0.0 (2020-06-21)
   </extension>
 </addon>
 
-<addon id="plugin.video.cmore" name="C More" version="1.0.7" provider-name="mariusz89b">
+<addon id="plugin.video.cmore" name="C More" version="1.0.8" provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.inputstreamhelper" version="0.2.4"/>
@@ -566,7 +571,10 @@ v9.0.0 (2020-06-21)
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 and MIT LICENSE.</license>
     <source>https://github.com/Mariusz89B/plugin.video.cmore</source>
-    <news>v1.0.7 (2022-06-16)
+    <news>v1.0.8 (2022-07-08)
+- Bug fixes.
+
+v1.0.7 (2022-06-16)
 - Fixed live tv play from beginning error.
 
 v1.0.6 (2022-06-12)
@@ -670,7 +678,7 @@ v0.0.1 (2022-05-12)
   </extension>
 </addon>
 
-<addon id="plugin.video.teliaplay" name="Telia Play" version="1.0.5" provider-name="mariusz89b">
+<addon id="plugin.video.teliaplay" name="Telia Play" version="1.0.6" provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.inputstreamhelper" version="0.2.4"/>
@@ -695,7 +703,10 @@ v0.0.1 (2022-05-12)
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 and MIT LICENSE.</license>
     <source>https://github.com/Mariusz89B/plugin.video.teliaplay</source>
-    <news>v1.0.5 (2022-07-02)
+    <news>v1.0.6 (2022-07-08)
+- Bug fixes.
+
+v1.0.5 (2022-07-02)
 - Login fix.
 
 v1.0.4 (2022-06-13)
