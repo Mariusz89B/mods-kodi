@@ -706,7 +706,7 @@ v0.0.1 (2022-05-12)
   </extension>
 </addon>
 
-<addon id="plugin.video.teliaplay" name="Telia Play" version="1.1.0" provider-name="mariusz89b">
+<addon id="plugin.video.teliaplay" name="Telia Play" version="1.1.1" provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.inputstreamhelper" version="0.2.4"/>
@@ -731,7 +731,12 @@ v0.0.1 (2022-05-12)
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 and MIT LICENSE.</license>
     <source>https://github.com/Mariusz89B/plugin.video.teliaplay</source>
-    <news>v1.1.0 (2022-07-10)
+    <news>v1.1.1 (2022-07-30)
+- Fixed series categories.
+- Performance optimizations.
+- Other fixes.
+
+v1.1.0 (2022-07-10)
 - Fixes.
 
 v1.0.9 (2022-07-10)
