@@ -1,3 +1,6 @@
+v1.1.3 (2022-08-08)
+- Code refactoring.
+
 v1.1.2 (2022-08-06)
 - Added Live TV.
 - Added catchup function for M3U playlist.
