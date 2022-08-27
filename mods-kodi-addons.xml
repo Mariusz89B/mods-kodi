@@ -575,7 +575,7 @@ v9.0.0 (2020-06-21)
   </extension>
 </addon>
 
-<addon id="plugin.video.cmore" name="C More" version="1.1.3" provider-name="mariusz89b">
+<addon id="plugin.video.cmore" name="C More" version="1.1.4" provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.inputstreamhelper" version="0.2.4"/>
@@ -600,7 +600,11 @@ v9.0.0 (2020-06-21)
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 and MIT LICENSE.</license>
     <source>https://github.com/Mariusz89B/plugin.video.cmore</source>
-    <news>v1.1.3 (2022-08-08)
+    <news>v1.1.4 (2022-08-27)
+- Fixed subscription content.
+- Added date to upcoming events.
+
+v1.1.3 (2022-08-08)
 - Code refactoring.
 
 v1.1.2 (2022-08-06)
@@ -724,7 +728,7 @@ v0.0.1 (2022-05-12)
   </extension>
 </addon>
 
-<addon id="plugin.video.teliaplay" name="Telia Play" version="1.1.5" provider-name="mariusz89b">
+<addon id="plugin.video.teliaplay" name="Telia Play" version="1.1.6" provider-name="mariusz89b">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.inputstreamhelper" version="0.2.4"/>
@@ -749,7 +753,11 @@ v0.0.1 (2022-05-12)
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 and MIT LICENSE.</license>
     <source>https://github.com/Mariusz89B/plugin.video.teliaplay</source>
-    <news>v1.1.5 (2022-08-08)
+    <news>v1.1.6 (2022-08-27)
+- Fixed subscription content.
+- Added date to upcoming events.
+
+v1.1.5 (2022-08-08)
 - Code refactoring.
 
 v1.1.4 (2022-08-06)

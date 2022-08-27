@@ -1,3 +1,7 @@
+v1.1.4 (2022-08-27)
+- Fixed subscription content.
+- Added date to upcoming events.
+
 v1.1.3 (2022-08-08)
 - Code refactoring.
 
