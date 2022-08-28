@@ -1,4 +1,8 @@
-﻿v9.9.627 (2022-08-23)
+﻿v9.9.628 (2022-08-28)
+- Fixed prog +/- channel switch.
+- Bug fixes.
+
+v9.9.627 (2022-08-23)
 - Fixed timebar update.
 - Fixed Telia Play and CMore catchup session timeout.
 - Fixed catchup return while playing.
