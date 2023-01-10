@@ -904,7 +904,7 @@ v0.0.1 (2022-06-01)
   </extension>
 </addon>
 
-<addon id="plugin.video.viaplay" version="2.3.8" name="Viaplay" provider-name="emilsvennesson, mariusz89b, heppen-dev, zuzia-dev">
+<addon id="plugin.video.viaplay" version="2.3.8" name="Viaplay" provider-name="mariusz89b, emilsvennesson, heppen-dev, zuzia-dev">
   <requires>
     <import addon="script.module.requests" version="2.9.1" />
     <import addon="script.module.iso8601" version="0.1.11" />
