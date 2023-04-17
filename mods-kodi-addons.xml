@@ -914,7 +914,7 @@ v0.0.1 (2022-06-01)
   </extension>
 </addon>
 
-<addon id="plugin.video.viaplay" version="2.4.4" name="Viaplay" provider-name="mariusz89b, emilsvennesson, heppen-dev">
+<addon id="plugin.video.viaplay" version="2.4.5" name="Viaplay" provider-name="mariusz89b, emilsvennesson, heppen-dev">
   <requires>
     <import addon="script.module.requests" version="2.9.1" />
     <import addon="script.module.iso8601" version="0.1.11" />
@@ -939,7 +939,10 @@ v0.0.1 (2022-06-01)
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 and MIT LICENSE.</license>
     <source>https://github.com/Mariusz89B/plugin.video.viaplay</source>
-    <news>v2.4.4 (2023-03-12)
+    <news>v2.4.5 (2023-04-17)
+- Bug fixes.
+
+v2.4.4 (2023-03-12)
 - Fixed bug when returning from search.
 - Added option to enable/disable synchronization. 
 
